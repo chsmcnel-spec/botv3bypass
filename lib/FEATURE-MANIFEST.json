@@ -1,0 +1,83 @@
+[
+  {
+    "file": "00-config-security.js",
+    "lines": [
+      1,
+      220
+    ],
+    "description": "Core imports, configuration, console banner and account/key security.",
+    "sha256": "786647b4e50e85bcbe9a178e33f2cbd3d08ed9565e99f5fff046593497def39a"
+  },
+  {
+    "file": "01-proxy.js",
+    "lines": [
+      221,
+      345
+    ],
+    "description": "Proxy transport, proxy checks, license helpers and config persistence.",
+    "sha256": "d2547f0ddb7ed00bc587bb28839964bac8af85f3804ad75fac171cd043f057ff"
+  },
+  {
+    "file": "02-scheduler-autosell.js",
+    "lines": [
+      346,
+      588
+    ],
+    "description": "Scheduled bot downtime and auto-sell configuration/helpers.",
+    "sha256": "46ead7763637761ff5a2ea7b2008d640e2c1db8aeb2553dffa2c91ecd2c11cef"
+  },
+  {
+    "file": "03-webhook-money.js",
+    "lines": [
+      589,
+      1254
+    ],
+    "description": "Discord webhook integration, bot events, money history, activity/income/uptime analytics.",
+    "sha256": "dd8cfaf03911e9a71993678477d16785f6880902504ec440320a3fd479667e00"
+  },
+  {
+    "file": "04-reconnect-logs-chat.js",
+    "lines": [
+      1255,
+      1877
+    ],
+    "description": "Reconnect policy, log formatting, chat parsing, anti-fake-pay and TPA helpers.",
+    "sha256": "f6596f7e710cfbdfa07680b962e7b154bdba4d7ed149200bf256a9e1a275b9a0"
+  },
+  {
+    "file": "05-minecraft-runtime.js",
+    "lines": [
+      1878,
+      3073
+    ],
+    "description": "Mineflayer bot creation, server login, stats checks, auto-sell loop and lifecycle.",
+    "sha256": "62e25640cb1e5db91c0cd3848a2ecb421008db8c47682523d74843e7cefec96c"
+  },
+  {
+    "file": "05b-physics-vehicle.js",
+    "lines": [
+      3074,
+      3255
+    ],
+    "description": "Physics guard (gravity/collision via mineflayer) and vanilla-style boat riding packets.",
+    "sha256": "74a8935f4a6169e28c1b70d596ac51d4566d6f45f2629d040069ed96e3d3f000"
+  },
+  {
+    "file": "06-dashboard-api.js",
+    "lines": [
+      3256,
+      4436
+    ],
+    "description": "Express dashboard, REST APIs, WebSocket inventory and panel routes.",
+    "sha256": "c34b18a96fbf4a9507d53be63c4b2287f9ea3a916d89043f0e3dafc8a0be00d8"
+  },
+  {
+    "file": "07-discord-control.js",
+    "lines": [
+      4437,
+      5434
+    ],
+    "description": "Interactive Discord bot (gateway, buttons/menus/modals), alerts and its config API.",
+    "sha256": "1e9d450c09b156b3916bc0e580290f3e8161f9d7aa4abe96399b5085795ba12d"
+  }
+]

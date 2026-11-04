@@ -1,0 +1,21 @@
+{
+  "name": "bot-panel",
+  "version": "1.0.0",
+  "description": "Bot AFK Minecraft control panel (Hexteko)",
+  "main": "login.js",
+  "private": true,
+  "scripts": {
+    "start": "node login.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "mineflayer": "^4.20.1",
+    "express": "^4.19.2",
+    "ws": "^8.17.0",
+    "socks": "^2.8.3",
+    "socks-proxy-agent": "^8.0.3",
+    "https-proxy-agent": "^7.0.4"
+  }
+}

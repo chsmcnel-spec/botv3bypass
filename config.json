@@ -1,0 +1,63 @@
+{
+  "SERVER_IP": "kingmc.vn",
+  "SERVER_PORT": 25565,
+  "SERVER_VERSION": "1.20.1",
+  "BOTS": [
+    {
+      "username": "chemchepmupthi",
+      "password": "enc1:0CZ+oSDD1p6hDyCdcXBMqNPS7BBdbmMO0pg3si5vY/S1Ww==",
+      "ownerId": "u_9d9449e01944007038144c63",
+      "keyId": "b6d966d8c1dfc603c2e68cd6921be702d7d52c9c02b49a735ad4769aa8350189",
+      "proxy": "enc1:piLFkOxJ1ofw94Me6Svm+6RV4yKen7wMHGnbfb85ccpBpAvANQch9aJjOKbEGJ/pNKsVDIopxP3Gk+vDh+NEJZYwPMBtg4Jiy7Q+C4Vf"
+    },
+    {
+      "username": "minhnhat3108",
+      "password": "enc1:7tgyLR+A2m9n2TVv3qz6aFD38dA6fakr3EMj0jiQkzVO/6CRDYVM",
+      "ownerId": "u_05bff844ff936c3b9fb598ce",
+      "keyId": "427631476afeb579a7ab7ad5c97961652d959b3e4f542a4fc2964f5e9b5521fd",
+      "proxy": "enc1:dK8EcI17l7nLUlrrC5APTjqdT3IlQcmJWV0wAIMZMSKWOjM+JZWtDZaf6V8u0LYWUyGPlTSlaKPnrjWmLK5ReLW/cyu0WnAlQg2y71l4"
+    },
+    {
+      "username": "AnnaCute",
+      "password": "enc1:PkvdutcBbRT44wOKc5ic4LksAA949dUtwt4jor6GM/JhVDVA",
+      "ownerId": "u_fe8dcd31d58c6a4bb312a9b6",
+      "keyId": "e6ca84d80d9599ee5de257245a18b1a1b3b928a2dcf2d94c0370d54511962037",
+      "proxy": "enc1:QFAMjwZrBCdjBne5AoGv7slTt2LdZZE2hIhGO4h1/msYdLBiGdW5AvlwZMS8JXx8ndVABjmPtzV56XU3qW+T59y7MVcKrQQjHjTo"
+    }
+  ],
+  "SCHEDULE": {
+    "enabled": false,
+    "outTime": "04:20",
+    "inTime": "05:05"
+  },
+  "AUTOSELL": {
+    "chemchepmupthi": {
+      "enabled": false,
+      "items": [],
+      "mode": "full",
+      "intervalSec": 60
+    },
+    "minhnhat3108": {
+      "enabled": false,
+      "items": [],
+      "mode": "full",
+      "intervalSec": 60
+    },
+    "AnnaCute": {
+      "enabled": false,
+      "items": [],
+      "mode": "full",
+      "intervalSec": 60
+    }
+  },
+  "LICENSE": {
+    "url": "https://spectacularcustardr4mq7vl2.netlify.app/.netlify/functions/api",
+    "origin": "https://kingsmp-bot.local",
+    "recheckMs": 60000,
+    "graceFailures": 3,
+    "timeoutMs": 10000
+  },
+  "SESSION_DAYS": 30,
+  "ALLOW_REGISTER": true,
+  "TRUST_PROXY": false
+}
